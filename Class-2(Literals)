@@ -1,0 +1,22 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author ASUS
+ */
+public class CWH_04_LITERALS {
+    public static void main(String[] args) {
+        
+        byte age = 34;
+        char ch  = 'A';
+        float f1 = 5.6f;
+        double d1 = 4.66D;
+        long ageDino = 566666666667L;
+        boolean a = true;
+        System.out.println(age);
+    }
+    
+}
