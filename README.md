@@ -1,2 +1,2 @@
-# Java--Learning-Journey
+# Java-Learning-Journey
 Documenting my daily progress learning Java from scratch.
