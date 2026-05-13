@@ -16,17 +16,21 @@ public class CWH_05_Takinginput {
         System.out.println("Taking Input From ");
         
         Scanner input = new Scanner(System.in);
+        
     
-        System.out.println("Enter number 1 ");
-       int a = input.nextInt(); 
-        System.out.println("Enter number 2");
+       // System.out.println("Enter number 1 ");
+      // int a = input.nextInt(); 
+        //System.out.println("Enter number 2");
         
-        int b = input.nextInt(); 
+        //int b = input.nextInt(); 
         
-        int sum = a+b;
+        //int sum = a+b;
         
-        System.out.println("The sum of these numbers is: ");
-        System.out.println(sum);
+       // System.out.println("The sum of these numbers is: ");
+        //System.out.println(sum);
+        
+      boolean b1 = input.hasNextInt();  
+System.out.println(b1);
     }
     
 }
