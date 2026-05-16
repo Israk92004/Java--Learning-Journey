@@ -1,0 +1,35 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author ASUS
+ */
+public class CWH_OPERATORS {
+    
+    public static void main(String[] args) {
+        //1. Arithmetic operators
+        int a = 4;
+        int b = 6+a;
+        System.out.println("b");
+        
+        //int b = 6 % a; modulo operator
+        //4.8%1.1 --> RETURNS DECIMAL REMAINDER
+        //2. assignment Operators
+        int b = 9;
+        b *= 3;
+        
+        System.out.println(b);
+        
+        //comparison operators
+        //System.out.println(64<6); //comparison operators
+        
+        
+        //logical operrators 
+        //system.out.println(64>5 || 64>98);
+        
+    }
+    
+}
