@@ -1,0 +1,54 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author ASUS
+ */
+public class cwh_14_Strings_Methods {
+    public static void main(String[] args) {
+        String name = "Israk";
+        
+        //System.out.println(name);
+        
+        int  value = name.length();//Method-1
+        
+        System.out.println(value);
+        
+        String lstring  = name.toLowerCase();//Method-2
+        
+        System.out.println(lstring);
+        
+        String ustring = name.toUpperCase();
+        
+        System.out.println(ustring);//Method-3
+        
+       String nonTrimmedString = "   Israk   ";
+        
+        //System.out.println(nonTrimmedString);
+        
+        //String trimmedString;
+        //System.out.println(nonTrimmedString.trim());
+        
+        
+        System.out.println(name.substring(1));
+        System.out.println(name.substring(1,5));
+        
+        //System.out.println(name.replace(oldchar: 'r', newChar:'p'));
+       //System.out.println(target:"r", replacement:"ier");
+       
+        
+        
+      
+      
+        
+       
+        
+      
+        
+      
+    }
+    
+}
