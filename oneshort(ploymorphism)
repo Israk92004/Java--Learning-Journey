@@ -1,0 +1,42 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.ooponeshort;
+
+/**
+ *
+ * @author ASUS
+ */
+
+// 1. Renamed to avoid duplicate class error
+class PolyStudent { 
+    String name;
+    int age;
+    
+    // 2. Fixed typo from printIfo to printInfo
+    public void printInfo(String name) {
+        System.out.println(name);
+    }
+    
+    public void printInfo(int age) {
+        System.out.println(age);
+    }
+    
+    public void printInfo(String name, int age) {
+        System.out.println(name + " " + age);
+    }
+}
+
+public class polymorphism {
+    
+    public static void main(String[] args) {
+        // Updated to use the new class name
+        PolyStudent s1 = new PolyStudent();
+        s1.name = "aman";
+        s1.age = 24;
+        
+        // 3. Fixed typo to match the correct method name
+        s1.printInfo(s1.age);
+    }
+}
