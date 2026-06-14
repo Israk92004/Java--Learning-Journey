@@ -1,0 +1,29 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.ooponeshort;
+
+/**
+ *
+ * @author ASUS
+ */
+
+interface Animal {
+    int eyes = 2;
+  public void walk();
+}
+
+class Horse implements Animal{
+     public void walk(){
+     
+         System.out.println("walks on 4 legs");
+     }
+
+}
+public class Interface {
+    public static void main(String[] args) {
+        Horse horse = new Horse();
+        horse.walk();
+    }
+}
